@@ -11,13 +11,13 @@ El proyecto está estructurado en una serie de prácticas:
 * **Integración Multimedia:** Implementación de elementos de audio y video nativos (Práctica 6).
 * **Proyectos Especiales:** Desarrollo de una cuenta regresiva dinámica (Medio Término).
 
-## 🛠️ Tecnologías y Herramientas
+## Tecnologías y Herramientas
 * **Lenguajes:** HTML5, CSS3, JavaScript.
 * **Entorno de Desarrollo:** Visual Studio Code.
 * **Sistemas:** Desarrollo y pruebas sobre un entorno optimizado en Arch Linux.
 * **Gestión de Versiones:** Git para el control de cambios.
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 ```bash
 .
 ├── Practicas/
