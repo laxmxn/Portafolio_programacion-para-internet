@@ -1,0 +1,42 @@
+
+h1{
+    color: rgb(255, 20, 20);
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+}
+th, td {
+    padding: 0px;
+    text-align: center;
+    padding-bottom: 8px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+
+th{
+    background-color: rgb(248, 248, 217);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+
+.r1{
+    background-color: rgb(255, 255, 255);
+}
+
+.r2{
+    background-color: rgb(201, 230, 238);
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

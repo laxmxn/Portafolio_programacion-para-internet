@@ -1,0 +1,21 @@
+  body{
+    background-color: rgb(86, 60, 84);
+}
+h1{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(213, 111, 181);
+}
+div.center {
+    text-align: center;
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #FFE6F3;
+    text-align: center;
+}

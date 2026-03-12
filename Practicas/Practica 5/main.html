@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tabla de datos</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../../estilos.css">
+</head>
+<body>
+    <h1>Formulario de Registros</h1>
+    <form id ="registro">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Luis">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email@domain.com"><br>
+        <label for="gustos">Gustos:</label>
+        <div class="gustos-div">
+            <input type="checkbox" name="gustos" value="Futbol">
+            <label for="gustos1">Futbol</label>
+            <input type="checkbox" name="gustos" value="Cine">
+            <label for="gustos2">Cine</label>
+            <input type="checkbox" name="gustos" value="Videojuegos">
+            <label for="gustos3">Videojuegos</label>
+        </div>
+        <label for="grupo">Grupo:</label>
+        <div class="radio">
+            <input type="radio" name="grupo" value="Bajo">
+            <label for="Bajo">Bajo</label>
+            <input type="radio" name="grupo" value="Medio">
+            <label for="Medio">Medio</label>
+            <input type="radio" name="grupo" value="Alto">
+            <label for="Alto">Alto</label>
+        </div>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha">
+        <label for="color">Color:</label>
+        <input type="color" id="color">
+        <label for="rango">Rango (1-100):</label>
+        <input type="range" id="rango" min="1" max="100">
+        <button type="button" onclick="procesar()">Agregar a la tabla</button> 
+    </form>
+    <h1>Tabla de Datos</h1>
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Gustos</th>
+                <th>Grupo</th>
+                <th>Fecha</th>
+                <th>Color</th>
+                <th>Rango</th>
+            </tr>
+        </thead>
+        <tbody id ="tabla-body">
+
+        </tbody>
+    </table>
+     <div style="align-items: center; display: flex; justify-content: center; margin-top: 20px;">
+        <a class="links" href="../../index.html">Volver al Portafolio</a>
+    </div>
+</body>
+</html>

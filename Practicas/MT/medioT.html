@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuenta Regresiva</title>
+    <script src="logica.js"></script>
+    <link href="estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../estilos.css">
+</head>
+<body>
+    <h1>Cuenta Regresiva</h1>
+    <div id="cuenta-regresiva" >
+        <p id="dias">00 dias</p>
+        <p id="horas">00 horas</p>
+        <p id="minutos">00 minutos</p>
+        <p id="segundos">00 segundos</p>
+    </div>
+
+    <h2 id="mensaje"></h2>
+
+    <div id="ingresar-fecha">
+        <label for="fecha">Ingrese la fecha</label>
+        <input type="date" id="fecha" name="fecha">
+        <label for="hora">Ingrese la hora</label>
+        <input type="time" id="hora" name="hora"><br><br>
+        <button id="validar" onclick="HabilitarBoton()">Validar Fecha</button><br><br>
+    </div>
+    <div id="boton">
+        <button id="Regresiva" onclick="CuentaRegresiva()" disabled hidden>Iniciar Cuenta Regresiva</button>
+    </div>
+
+    <a href="../../index.html">Volver al Portafolio</a>
+</body>
+</html>

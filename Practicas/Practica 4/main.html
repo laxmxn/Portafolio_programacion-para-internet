@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Practica 3</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: red;
+        }
+    </style>
+    <script type="text/javascript" src="calif.js"></script>
+    <link rel="stylesheet" href="../../estilos.css">
+</head>
+<body>
+    <h1>Calificación numérica</h1>
+    <form>
+        Introduce la calificación: <input type="number" id="calificacion" step="0.1"><br>
+        <button type="button" onclick="calificar()">Obtener equivalencia</button>
+    </form>
+    <p id="demo"></p>
+    <h1>Calcular factorial inverso</h1>
+    <form>
+        Introduzca el numero para calcular su factorial: <input type="number" id="factorial"><br>
+        <button type="button" onclick="imprimir()">Calcular factorial</button>
+    </form>
+    <p id="demo2"></p>
+    <h1>Imprimir formulario</h1>
+    <form>
+        Introduce tu nombre: <input type="text" id="nombre"><br><br>
+        Introduce tu correo: <input type="email" id="email" placeholder="example@domain.com"><br><br>
+        Introduce tu edad: <input type="number" id="edad" step="1" min="1" max="120"><br><br>
+        Selecciona tu genero: <br><br>Masculino<input type="radio" id="masculino" name="genero" value="masculino">
+        <br><br>Femenino<input type="radio" id="femenino" name="genero" value="femenino"><br><br>
+        Fecha de nacimiento: <input type="date" id="nacimiento"><br><br>
+        Color favorito: <input type="color" id="color"><br><br>
+        <p id="demo3"></p>
+        <button type="button" onclick="formulario()">Ver mis datos</button>
+    </form>
+     <div style="align-items: center; display: flex; justify-content: center; margin-top: 20px;">
+        <a class="links" href="../../index.html">Volver al Portafolio</a>
+    </div>
+</body>
+</html>
