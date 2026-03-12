@@ -28,3 +28,5 @@ El proyecto está estructurado en una serie de prácticas:
 │   ├── Practica 6/  # Multimedia (Audio y Video)
 │   └── MT/          # Cuenta Regresiva (Medio Término)
 └── index.html       # Página principal del portafolio
+
+## Este cambio se hizo desde git de forma remota
